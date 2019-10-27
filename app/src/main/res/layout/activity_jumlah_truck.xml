@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JumlahTruck">
+
+
+    <FrameLayout
+        android:layout_width="327dp"
+        android:layout_height="241dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="282dp"
+        android:background="@drawable/kotak_hijaumuda"></FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="157dp"
+        android:layout_marginBottom="481dp"
+        android:text="Masukkan "
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="454dp"
+        android:text="Jumlah Truk "
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:layout_width="88dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="385dp"
+        android:background="@drawable/kotak_putih"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="385dp"
+        android:background="@drawable/kotak_putih"
+        android:text="+"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="51dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="385dp"
+        android:background="@drawable/kotak_putih"
+        android:text="-"
+        android:textSize="25dp" />
+
+    <Button
+        android:layout_width="76dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="315dp"
+        android:background="@drawable/kotak_merah"
+        android:text="Batal"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="315dp"
+        android:background="@drawable/kotak_hijau"
+        android:text="OK"
+        android:textColor="#ffffff"
+        android:textSize="10dp" />
+
+    <FrameLayout
+        android:layout_width="353dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/kotak_menu">
+
+    </FrameLayout>
+    
+
+
+
+</RelativeLayout>

@@ -12,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OrderList"></activity>
+        <activity android:name=".PesanSaya"></activity>
+        <activity android:name=".TugasDriver" />
+        <activity android:name=".JumlahTruck" />
+        <activity android:name=".OrderList" />
         <activity android:name=".Pendaftaran" />
         <activity android:name=".Login" />
         <activity android:name=".MainActivity">

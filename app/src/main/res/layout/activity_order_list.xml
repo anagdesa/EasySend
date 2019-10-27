@@ -4,13 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:visibility="visible"
     tools:context=".OrderList">
+
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="74dp"
-        android:background="@color/hijaumuda"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
         android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/abu"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="37dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="17dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/Riwayat" />
+
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,4 +46,250 @@
             android:textSize="18sp" />
     </RelativeLayout>
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="512dp"
+
+        android:text="Timer : " />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="537dp"
+        android:background="@drawable/btn"
+        android:text="Kirim"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf=""
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="427dp"
+
+        android:text="Timer : " />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="286dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/btn"
+        android:text="Kirim"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf=""
+        tools:layout_editor_absoluteY="389dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="338dp"
+
+        android:text="Timer : " />
+
+    <EditText
+        android:layout_width="218dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="329dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="375dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="282dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="71dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="198dp"
+        android:background="@drawable/kolom_pendaftaran"
+        android:fontFamily="sans-serif-light"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/hijaumuda"
+        android:textSize="13sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="363dp"
+        android:background="@drawable/btn"
+        android:text="Kirim"
+        android:textColor="#ffffff"
+        android:textSize="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf=""
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="268dp"
+
+        android:text="List Penumpnag " />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="308dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="298dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/kolom_pendaftaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="210dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="308dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="298dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/kolom_pendaftaran"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="210dp">
+
+        </FrameLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="335dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="635dp"
+        android:layout_marginEnd="38dp"
+        android:background="@drawable/kolom_pendaftaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="210dp">
+
+    </FrameLayout>
+
 </RelativeLayout>
+
